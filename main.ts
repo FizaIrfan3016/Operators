@@ -77,3 +77,21 @@
 //     default:
 //         console.log('Work on a hobby')   
 
+/**Evaluating a Number guess */
+// let guess:number=7;
+// let target : number=5;
+// if(guess<target){
+//  console.log('Your guess is too low.');
+// } else if (guess>target){
+//  console.log('Your guess too high.');
+// } else {
+//  console.log('You guess correctly.')
+// }
+
+/**Friend checker game */
+let friend:string='Muskan';
+if(friend === 'Shawana' || friend === 'Laiba'){
+    console.log(`${friend} is your friend.`)
+}else {
+    console.log(`${friend} is not your friend.`)
+}
